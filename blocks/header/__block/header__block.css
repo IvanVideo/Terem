@@ -1,0 +1,9 @@
+.header__block {
+    border: 1px solid #000;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+}

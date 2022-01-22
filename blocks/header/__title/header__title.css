@@ -1,0 +1,14 @@
+.header__title {
+    margin: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    text-align: center;
+    font-size: 46px;
+	line-height: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+}

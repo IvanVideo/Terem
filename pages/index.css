@@ -1,0 +1,13 @@
+
+@import url('../styles/normalize.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__block/header__block.css');
+@import url('../blocks/header/__title/header__title.css');
+@import url('../blocks/section/section.css');
+@import url('../blocks/section/__block/section__block.css');
+@import url('../blocks/section/__block/_1/section__block_1.css');
+@import url('../blocks/section/__block/_2/section__block_2.css');
+@import url('../blocks/section/__block/_3/section__block_3.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__block1/footer__block1.css');
+@import url('../blocks/footer/__block2/footer__block2.css');

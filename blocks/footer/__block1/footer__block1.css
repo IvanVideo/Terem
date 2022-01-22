@@ -1,0 +1,14 @@
+.footer__block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    height: 100%;
+    width: calc(100% / 3);
+}
+
+@media screen and (max-width: 767px) {
+    .footer__block1 {
+        width: 100%;
+    }
+}

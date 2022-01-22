@@ -1,0 +1,16 @@
+.section__block {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    height: 100px;
+    width: calc(100% / 3);
+}
+
+.section__block:nth-child(2) {
+    border: 1px dashed #000;
+}
+
+@media screen and (max-width: 767px) {
+    .section__block {
+        width: 100%;
+    }
+} 
