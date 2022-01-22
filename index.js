@@ -7,11 +7,15 @@ const hndleClickBtn1 = () => {
     headerBlock.classList.toggle('hide')
 }
 
-//меняем местами 1 и 2 блок при нажатии на "Кнопка1"
+
+//меняем местами 1 и 2 блок при нажатии на "Кнопка2"
 const hndleClickBtn2 = () => {
-    // block2.css('order', 0)
-    let order = block2
-    console.log(order)
+    const block1 = document.querySelector('.section__block_1');
+    if (block1.style.order == 1) {
+        block1.style.order = 3
+    } else {
+        block1.style.order = 1
+    }
 }
 
 //закрываем попап

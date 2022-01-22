@@ -1,0 +1,12 @@
+.form__select {
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .form__select {
+        width: 200px;
+    }
+}
