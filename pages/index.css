@@ -1,6 +1,5 @@
 
 @import url('../styles/normalize.css');
-@import url('../blocks/header/header.css');
 @import url('../blocks/header/__block/header__block.css');
 @import url('../blocks/header/__title/header__title.css');
 @import url('../blocks/section/section.css');
@@ -11,3 +10,8 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__block1/footer__block1.css');
 @import url('../blocks/footer/__block2/footer__block2.css');
+@import url('../blocks/header/hide.css');
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/__conteiner/popup__conteiner.css');
+@import url('../blocks/popup/__title/popup__title.css');
+@import url('../blocks/popup/__btn/popup__btn.css');

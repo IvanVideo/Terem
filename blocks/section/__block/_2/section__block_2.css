@@ -1,4 +1,5 @@
 .section__block_2 {
     background-color: #FFCCFF;
     height: 100%;
+    order: 2;
 }

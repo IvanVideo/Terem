@@ -1,0 +1,12 @@
+.popup__btn {
+    background-image: url('../../../images/terem.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    top: -40px;
+    right: -30px;
+    width: 40px;
+    height: 40px;
+}
