@@ -26,6 +26,7 @@ const hndleClosePopup = (e) => {
     return
 }
 
+//слушатели событий
 const btn1 = document.getElementById('btn1').addEventListener('click', hndleClickBtn1);
 const btn2 = document.getElementById('btn2').addEventListener('click', hndleClickBtn2);
 const popupCloseButton = document.querySelector('.popup__btn').addEventListener('click', hndleClosePopup);

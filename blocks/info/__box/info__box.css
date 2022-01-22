@@ -1,0 +1,11 @@
+.info__box {
+    width: 200px;
+    padding: 5px 25px;
+}
+
+@media screen and (max-width: 767px) {
+    .info__box {
+        max-width: 250px;
+        text-align: center;
+    }
+}

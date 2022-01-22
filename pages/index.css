@@ -22,3 +22,6 @@
 @import url('../blocks/form/__textarea/form__textarea.css');
 @import url('../blocks/form/__title/form__title.css');
 @import url('../blocks/form/__button/fotm__button.css');
+@import url('../blocks/info/info.css');
+@import url('../blocks/info/__box/info__box.css');
+@import url('../blocks/info/__title/info__title.css');

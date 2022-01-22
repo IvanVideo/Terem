@@ -16,7 +16,7 @@
         <a class="header__link" href='/index.html'>
             <p>Вернуться к верстке</p>
         </a>
-        <select class="form__select">
+        <select name='numberPlaer' class="form__select form__select1">
             <option selected>Выберите свой номер участника</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -24,7 +24,7 @@
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-        <select class="form__select">
+        <select name='numberPlayers' class="form__select form__select2">
             <option selected>Количество игроков в команде</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -32,7 +32,7 @@
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-        <select class="form__select">
+        <select name='numperSpare' class="form__select form__select3">
             <option selected>Сколько игроков на замене</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -40,7 +40,7 @@
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-        <select class="form__select">
+        <select name='numberWin' class="form__select form__select4">
             <option selected>Сколько побед былое</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -48,7 +48,7 @@
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-        <select class="form__select">
+        <select name='numberLos' class="form__select form__select5">
             <option selected>Сколько поражений было</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -56,11 +56,12 @@
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-        <textarea class="form__textarea" placeholder="что угодно напишите)"></textarea>
-        <textarea class="form__textarea" placeholder="оставьте свой отзыв"></textarea>
+        <textarea name='textarea1' class="form__textarea" placeholder="что угодно напишите)" required></textarea>
+        <textarea name='textarea2' class="form__textarea" placeholder="оставьте свой отзыв" required></textarea>
         <button class="fotm__button">Отправить</button>
     </form>
-    <script src="./index.js"></script>
+    <div class="info"></div>
+    <script src="./form.js"></script>
 </body>
 
 </html>
