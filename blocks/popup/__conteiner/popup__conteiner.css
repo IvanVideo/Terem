@@ -7,3 +7,9 @@
     height: 200px;
     background-color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+    .popup__conteiner {
+        width: 250px;
+    }
+}
